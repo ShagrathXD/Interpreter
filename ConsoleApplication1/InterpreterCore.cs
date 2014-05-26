@@ -29,6 +29,13 @@ namespace Interpreter
             command = Console.ReadLine();
             CommandVerifier(command);
 
+            switch (command)
+            {
+                case "close":
+                    Environment.Exit(0);
+                    break;
+            }
+
         }
 
         public void CommandVerifier(string c)
