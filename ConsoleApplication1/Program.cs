@@ -11,7 +11,7 @@ namespace Interpreter
         static void Main(string[] args)
         {
             InterpreterCore interp = new InterpreterCore();
-            interp.Initialization();
+            interp.Working();
         }
     }
 }

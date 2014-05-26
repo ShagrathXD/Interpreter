@@ -8,16 +8,39 @@ namespace Interpreter
 {
     public class InterpreterCore
     {
-        public void Initialization()
+
+        public string command;
+
+        public InterpreterCore()
         {
-            Console.WriteLine("Enter command:");
-            CommandReader();
         }
 
-        public void CommandReader()
-        {
-            Console.ReadLine();
 
+        public void Working()
+        {
+            Console.WriteLine("Enter command:");
+            CommandParser();
+
+            Console.ReadLine();
+        }
+
+        public void CommandParser()
+        {
+            command = Console.ReadLine();
+            CommandVerifier(command);
+
+        }
+
+        public void CommandVerifier(string c)
+        {
+            if (c.Equals(null)||c.Equals(""))
+            {
+                Console.WriteLine("Null! Please, try again");
+            }
+            else
+            {
+                Console.WriteLine("Right command"); //отладочное сообщение
+            }
         }
 
 
