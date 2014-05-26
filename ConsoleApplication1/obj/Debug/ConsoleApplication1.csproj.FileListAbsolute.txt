@@ -1,0 +1,6 @@
+D:\V\Dropbox\c#\console\interpreter\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\V\Dropbox\c#\console\interpreter\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\V\Dropbox\c#\console\interpreter\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\V\Dropbox\c#\console\interpreter\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\V\Dropbox\c#\console\interpreter\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\V\Dropbox\c#\console\interpreter\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
