@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Interpreter
 {
@@ -10,6 +11,7 @@ namespace Interpreter
     {
 
         public string command;
+        FileSystemProvider fs = new FileSystemProvider();
 
         public InterpreterCore()
         {
@@ -34,6 +36,11 @@ namespace Interpreter
                 case "close":
                     Environment.Exit(0);
                     break;
+            
+            
+                case "dir":
+                    fs.Dir();
+                    break;
             }
 
         }
@@ -49,6 +56,8 @@ namespace Interpreter
                 Console.WriteLine("Right command"); //отладочное сообщение
             }
         }
+
+
 
 
     }
